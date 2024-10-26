@@ -1,0 +1,121 @@
+❯ sudo mn --topo=tree,depth=4,fanout=2 --mac --link tc,bw=25
+*** Creating network
+*** Adding controller
+*** Adding hosts:
+h1 h2 h3 h4 h5 h6 h7 h8 h9 h10 h11 h12 h13 h14 h15 h16
+*** Adding switches:
+s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14 s15
+*** Adding links:
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(s1, s2) (25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(s1, s9) (25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(s2, s3) (25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(s2, s6) (25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(s3, s4) (25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(s3, s5) (25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(s4, h1) (25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(s4, h2) (25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(s5, h3) (25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(s5, h4) (25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(s6, s7) (25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(s6, s8) (25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(s7, h5) (25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(s7, h6) (25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(s8, h7) (25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(s8, h8) (25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(s9, s10) (25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(s9, s13) (25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(s10, s11) (25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(s10, s12) (25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(s11, h9) (25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(s11, h10) (25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(s12, h11) (25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(s12, h12) (25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(s13, s14) (25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(s13, s15) (25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(s14, h13) (25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(s14, h14) (25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(s15, h15) (25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(s15, h16)
+*** Configuring hosts
+h1 h2 h3 h4 h5 h6 h7 h8 h9 h10 h11 h12 h13 h14 h15 h16
+*** Starting controller
+c0
+*** Starting 15 switches
+s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14 s15 ...(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(25.00Mbit) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+
+*** Starting CLI:
+mininet>
